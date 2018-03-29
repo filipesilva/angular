@@ -18,10 +18,14 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               {
-                "glob": "src/assets"
+                "glob": "**/*",
+                "input": "src/assets/",
+                "output": "./assets/"
               },
               {
-                "glob": "src/generated"
+                "glob": "**/*",
+                "input": "src/generated/",
+                "output": "./generated/"
               },
               {
                 "glob": "src/app/search/search-worker.js"
