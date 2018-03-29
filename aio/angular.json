@@ -3,7 +3,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "site": {
-      "root": "",
+      "root": "src/",
       "projectType": "application",
       "cli": {},
       "schematics": {},
