@@ -55,9 +55,15 @@
           },
           "configurations": {
             "production": {
+              "fileReplacements": [
+                {
+                  "from": "src/environments/environment.ts",
+                  "to": "src/environments/environment.stable.ts"
+                }
+              ],
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false,
+              "sourceMap": true,
               "extractCss": true,
               "namedChunks": false,
               "aot": true,

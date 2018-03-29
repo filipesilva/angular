@@ -7,9 +7,9 @@
   "license": "MIT",
   "scripts": {
     "cli-build": "ng build",
-    "cli-build-prod": "ng build --target=production --environment=stable -sm",
+    "cli-build-prod": "ng build --prod",
     "cli-serve": "ng serve",
-    "cli-serve-prod": "ng serve --target=production --environment=stable -sm",
+    "cli-serve-prod": "ng serve --prod",
     "cli": "ng",
     "aio-use-local": "node tools/ng-packages-installer overwrite . --debug --ignore-packages @angular/service-worker",
     "aio-use-npm": "node tools/ng-packages-installer restore .",
