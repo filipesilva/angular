@@ -84,7 +84,7 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "site:build"
+              "browserTarget": "site:build:production"
             }
           }
         },
