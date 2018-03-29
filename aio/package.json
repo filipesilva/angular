@@ -161,6 +161,7 @@
     "vrsource-tslint-rules": "^4.0.1",
     "watchr": "^3.0.1",
     "xregexp": "^4.0.0",
-    "yargs": "^7.0.2"
+    "yargs": "^7.0.2",
+    "@angular-devkit/build-angular": "~0.0.9"
   }
 }
