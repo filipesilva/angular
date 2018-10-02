@@ -52,6 +52,17 @@
             "scripts": []
           },
           "configurations": {
+            "fs": {
+              "aot": false,
+              "optimization": false,
+              "buildOptimizer": false,
+              "outputHashing": "none",
+              "sourceMap": false,
+              "statsJson": false,
+              "extractCss": false,
+              "extractLicenses": false,
+              "vendorChunk": true
+            },
             "fast": {
               "optimization": false
             },
@@ -90,6 +101,9 @@
             "browserTarget": "site:build"
           },
           "configurations": {
+            "fs": {
+              "browserTarget": "site:build:fs"
+            },
             "fast": {
               "browserTarget": "site:build:fast"
             },
