@@ -8,6 +8,8 @@
 # We recommend machine type n1-highcpu-16 (16 vCPUs, 14.4 GB memory).
 # Use a windows boot disk with container support such as
 # "Windows Server version 1803 Datacenter Core for Containers".
+# Give it push access to the Container Registry by clicking "Set access for each API" and
+# setting "Storage" to "Read Write".
 # Give it a name, then click "Create".
 
 # VM setup:
