@@ -1,0 +1,307 @@
+{
+  "configVersion": 1,
+  "timestamp": 1554460219909,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app-shell",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/14.71c69dbea2dc021cb49c.js",
+        "/announcement-bar-announcement-bar-module-ngfactory.ee91f2503834315c1a3c.js",
+        "/api-api-list-module-ngfactory.221b032b31dadedfe0f1.js",
+        "/code-code-example-module-ngfactory.67fb41d53a322ddc56c1.js",
+        "/code-code-tabs-module-ngfactory.9f8240ec09a8e2cc40a6.js",
+        "/contributor-contributor-list-module-ngfactory.ddd572934363d853025e.js",
+        "/default~code-code-example-module-ngfactory~code-code-tabs-module-ngfactory.e5d6839b321fb80ea168.js",
+        "/index.html",
+        "/live-example-live-example-module-ngfactory.7b5e6142a8f2447c0480.js",
+        "/main.f5d918d759e4c6cd42e9.js",
+        "/polyfills.480a4a2fe7c74e64498f.js",
+        "/resource-resource-list-module-ngfactory.6f522017329909e02deb.js",
+        "/runtime.bc133222c5c9cb3f5926.js",
+        "/search-file-not-found-search-module-ngfactory.64db5cf514a9e4e666be.js",
+        "/styles.72498e94f2d7a2f6673a.css",
+        "/toc-toc-module-ngfactory.b7785c58c9a3bae50d56.js"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/.*"
+      ]
+    },
+    {
+      "name": "assets-eager",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    },
+    {
+      "name": "assets-lazy",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    },
+    {
+      "name": "docs-index",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    },
+    {
+      "name": "docs-lazy",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/14.71c69dbea2dc021cb49c.js": "bdb6ff2690409661c148d0271ee96d587e37752d",
+    "/announcement-bar-announcement-bar-module-ngfactory.ee91f2503834315c1a3c.js": "5a609b116a19765d61b6965144b94ae872e38650",
+    "/api-api-list-module-ngfactory.221b032b31dadedfe0f1.js": "7f63437b2665c25c91a05e7ff824a388e6534c11",
+    "/code-code-example-module-ngfactory.67fb41d53a322ddc56c1.js": "20c4e38c2d31e8dc31319701cfad7e6e98bc51f4",
+    "/code-code-tabs-module-ngfactory.9f8240ec09a8e2cc40a6.js": "dd5b629dfc2221ccee96b175a0f4e100a77f05c9",
+    "/contributor-contributor-list-module-ngfactory.ddd572934363d853025e.js": "5223a749466d5595a292bdc75881414fbe3d82be",
+    "/default~code-code-example-module-ngfactory~code-code-tabs-module-ngfactory.e5d6839b321fb80ea168.js": "db38249b2ae9e8ba694e1c06026253f84d078d5a",
+    "/index.html": "52cedc8f49367e60715aa023afd8f3bb780fa6ca",
+    "/live-example-live-example-module-ngfactory.7b5e6142a8f2447c0480.js": "ef23fc9a13dc6cde22dd86f9a3d5c0037f8d4eca",
+    "/main.f5d918d759e4c6cd42e9.js": "9cddd59fc537678789cd0826af115596d1ef2cc1",
+    "/polyfills.480a4a2fe7c74e64498f.js": "3c6b93ae4f26796d73ec59bddc26d7c27f2e4411",
+    "/resource-resource-list-module-ngfactory.6f522017329909e02deb.js": "983668e4c0d86f7bd3eb3ae910250b7d4c70f304",
+    "/runtime.bc133222c5c9cb3f5926.js": "94c08b641f91ddbad268df089ad7483f67cc3576",
+    "/search-file-not-found-search-module-ngfactory.64db5cf514a9e4e666be.js": "214b27cab272f55aad27fd438992340acf316c06",
+    "/styles.72498e94f2d7a2f6673a.css": "2a63c75c1b74ca513372bebe542ec79dd04c9666",
+    "/toc-toc-module-ngfactory.b7785c58c9a3bae50d56.js": "4075d3fa96333945ce02931bfa113de3ee65d5fd"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?stackblitz$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?stackblitz\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/[^/]*\\/(?:.+\\/)?[^/]*-[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?AnimationStateDeclarationMetadata[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?CORE_DIRECTIVES[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?DirectiveMetadata[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?HTTP_PROVIDERS[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?NgFor$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?NgFor-[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?PLATFORM_PIPES[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/animate\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/api\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/common\\/Control[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/common\\/MaxLengthValidator[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/common\\/NgModel[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/platform-browser\\/AnimationDriver[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/testing\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/docs\\/[^/][^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/docs\\/[^/]*\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/cli-quickstart$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/cli-quickstart\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/cli-quickstart\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/learning-angular$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/learning-angular\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/learning-angular\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/metadata$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/metadata\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/metadata\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/ngmodule$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/ngmodule\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/ngmodule\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-getstart$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-getstart\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-getstart\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-comm$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-comm\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-comm\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-configref$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-configref\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-configref\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/webpack$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/webpack\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/webpack\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/setup-systemjs-anatomy$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/setup-systemjs-anatomy\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/news$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/news\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/news\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/styleguide$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/styleguide\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/testing$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/testing\\/.*$"
+    }
+  ]
+}

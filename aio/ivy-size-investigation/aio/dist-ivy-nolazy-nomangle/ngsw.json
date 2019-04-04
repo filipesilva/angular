@@ -1,0 +1,285 @@
+{
+  "configVersion": 1,
+  "timestamp": 1554460646968,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app-shell",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/index.html",
+        "/main.cdc957555266693e9720.js",
+        "/polyfills.cb5358cf787665edf4ec.js",
+        "/runtime.82d36ce572ea6aee19d7.js",
+        "/styles.2f34bf96152d8f2be97c.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/.*"
+      ]
+    },
+    {
+      "name": "assets-eager",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    },
+    {
+      "name": "assets-lazy",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    },
+    {
+      "name": "docs-index",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    },
+    {
+      "name": "docs-lazy",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/index.html": "84bb5765f1f1afe4db4dedc8e77d969ff1d0ea35",
+    "/main.cdc957555266693e9720.js": "112e6acbd8555a38c6d16cec89f74c1fe94cbe7a",
+    "/polyfills.cb5358cf787665edf4ec.js": "c4acc35e0d98f1cbb874081933b307cc4cd55630",
+    "/runtime.82d36ce572ea6aee19d7.js": "7a3a69540cdf93b5f44fba2a87faba6e4e92bd55",
+    "/styles.2f34bf96152d8f2be97c.css": "e5da5bb47adeab0cfdd067178abe652ad5ebf702"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?stackblitz$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?stackblitz\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/[^/]*\\/(?:.+\\/)?[^/]*-[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?AnimationStateDeclarationMetadata[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?CORE_DIRECTIVES[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?DirectiveMetadata[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?HTTP_PROVIDERS[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?NgFor$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?NgFor-[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/(?:.+\\/)?PLATFORM_PIPES[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/animate\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/api\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/common\\/Control[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/common\\/MaxLengthValidator[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/common\\/NgModel[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/platform-browser\\/AnimationDriver[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/api\\/testing\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/docs\\/[^/][^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/docs\\/[^/]*\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/cli-quickstart$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/cli-quickstart\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/cli-quickstart\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/learning-angular$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/learning-angular\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/learning-angular\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/metadata$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/metadata\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/metadata\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/ngmodule$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/ngmodule\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/ngmodule\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-getstart$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-getstart\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-getstart\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-comm$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-comm\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-comm\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-configref$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-configref\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/service-worker-configref\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/webpack$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/webpack\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/webpack\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/setup-systemjs-anatomy$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/guide\\/setup-systemjs-anatomy\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/news$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/news\\.html$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/news\\/$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/styleguide$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/styleguide\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/testing$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/testing\\/.*$"
+    }
+  ]
+}
