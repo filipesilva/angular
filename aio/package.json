@@ -71,8 +71,8 @@
     "~~http-server": "http-server"
   },
   "engines": {
-    "node": ">=10.9.0 <11.0.0",
-    "yarn": ">=1.12.1 <=1.14.0"
+    "node": ">=10.9.0 <13.0.0",
+    "yarn": ">=1.12.1 <=1.17.0"
   },
   "private": true,
   "dependencies": {
