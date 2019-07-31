@@ -6,6 +6,7 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
+import {ngJitModePropName} from '@angular/core';
 import {CompileShallowModuleMetadata, identifierName} from '../compile_metadata';
 import {InjectableCompiler} from '../injectable_compiler';
 import {mapLiteral} from '../output/map_util';
@@ -185,8 +186,16 @@ function generateSetNgModuleScopeCall(meta: R3NgModuleMetadata): o.Statement|nul
       /* args */[moduleType, mapToMapExpression(scopeMap)],
       /* type */ undefined,
       /* sourceSpan */ undefined,
-      /* pure */ true);
-  return fnCall.toStmt();
+      /* pure */ false);
+
+  // Use the call as the RHS of a binary and expression, where the LHS is a global access
+  // to a variable that indicates if the compilation is JIT. This way the statement can be
+  // tree shaken.
+  const ngJitModeId = new o.ExternalExpr(new o.ExternalReference(null, ngJitModePropName));
+  const binOpExpr = new o.BinaryOperatorExpr(o.BinaryOperator.And, ngJitModeId, fnCall);
+  // TODO: this should instead emit
+  //   Something.ngModuleDef = ngJitMode && /*@__PURE__*/ ɵɵsetNgModuleScope(stuff);
+  return binOpExpr.toStmt();
 }
 
 export interface R3InjectorDef {

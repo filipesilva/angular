@@ -11,6 +11,10 @@
  * @description
  * Entry point from which you should import all public core APIs.
  */
+// TODO: is it ok to just import ng_jit_mode before everything?
+// Maybe it should be imported by all modules that expect it to exist instead, like
+// ng_i18n_closure_mode.ts and ng_dev_mode.ts
+export * from './util/ng_jit_mode';
 export * from './metadata';
 export * from './version';
 export {TypeDecorator} from './util/decorators';

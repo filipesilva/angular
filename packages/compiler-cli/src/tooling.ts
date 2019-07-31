@@ -11,6 +11,7 @@
  * @description
  * Tooling support helpers.
  */
+import { ngJitModePropName } from '@angular/core';
 
 /**
  * Known values for global variables in `@angular/core` that Terser should set using
@@ -19,4 +20,8 @@
 export const GLOBAL_DEFS_FOR_TERSER = {
   ngDevMode: false,
   ngI18nClosureMode: false,
+};
+// These values are only for when using Terser with AOT builds.
+export const GLOBAL_DEFS_FOR_TERSER_WITH_AOT = {
+  [ngJitModePropName]: true,
 };
