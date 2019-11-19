@@ -5,8 +5,4 @@
 # Googlebot uses an older version of Chrome
 # For additional information see: https://developers.google.com/search/docs/guides/rendering
 
-> 0.5%
-last 2 major versions
-Firefox ESR
-not dead
-IE 11
+Chrome 65

@@ -33,7 +33,7 @@
             "aot": true,
             "optimization": true,
             "buildOptimizer": true,
-            "outputHashing": "all",
+            "outputHashing": "none",
             "sourceMap": true,
             "statsJson": true,
             "extractCss": true,
